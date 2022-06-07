@@ -20,8 +20,7 @@ l1=Label(window,font=("Helvetica", 260))
 #function of the dice in the tkinder instance
 def roll_dices():
     #Dice represent by ACII characters
-    first_dice=['\u2680','\u2681','\u2682','\u2683','\u2684','\u2685']
-    #first_dice = random.randint(1,20)  
+    first_dice=['\u2680','\u2681','\u2682','\u2683','\u2684','\u2685']  
     
     #This is how works and shiw the dices in window
     l1.config(text=f'{random.choice(first_dice)}{random.choice(first_dice)}')
